@@ -1,0 +1,464 @@
+body{
+				 font:15px/1.5 Arial, Helvetica, sans-serif;
+				 padding: 0;
+				 margin: 0;
+				 background-color:#f4f4f4 ;
+}
+
+
+				
+				
+				/* global */
+				
+				
+.container{
+				width:94%;
+				margin: auto;
+				overflow:hidden;
+}
+
+
+hr{
+				width: 100px;
+				padding: 10px;
+				color: white;
+				height: 10px;
+				border: white solid 10px;
+}
+
+header{
+				background: url("../img/engine.png");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				padding-top: 30px;
+				min-height: 70px;
+				border-bottom: #ff001f solid 10px;
+}
+
+header .M{
+				color: Yellow;
+				padding: 2px;
+				font-size: px;
+				padding: 10px;
+				margin-top: -80px;
+		
+}
+
+header #spare{
+				color:#ff001f;
+				font-weight: bold;
+				font-size: 70px;
+				text-decoration: none;
+				text-transform: uppercase;
+}
+
+
+header .M #highlight{
+				color: Gold;
+				font-weight: bold;
+				font-size: 70px;
+}
+
+
+.menulogo{
+				color: Blue;
+				font-size: 50px;
+				margin-top: -120px;
+				
+				
+}
+
+
+
+header nav{
+				float: right;
+				margin-top: -120px;
+				
+}
+
+
+header nav button{
+				margin-top: -60px;
+				background: Orange;
+				border-radius: 40px;
+				
+}
+
+
+ul{
+				margin: 0;
+				padding: 0;
+}
+
+
+#showcase{
+				background: url("../img/showcase.png");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				text-align: center;
+				color: white;
+				min-height: 1000px;
+				border-bottom: #ff001f solid 10px;
+}
+
+
+#showcase h1{
+				color: Orange;
+				margin-top: 120px ;
+				font-size: 70px;
+				margin-bottom: 10px;
+}
+
+
+#showcase h1 #highlight{
+				color: white;
+}
+
+
+#showcase p{
+				font-size: 50px;
+				margin-bottom: -10px;
+}
+
+
+/* NEWSLETTERS */
+#newsletter{
+				padding: 15px;
+				color: #ffffff;
+				background: #35424a;
+				min-height: 200px;
+				border-bottom: #ff001f solid 10px;
+}
+
+
+#newsletter h1{
+				float: left;
+				margin-top: 90px;
+}
+
+
+#newsletter form {
+				float: right;
+				margin-top: 15px;
+				margin-top: 80px;
+				
+}
+
+
+#newsletter input[type="emails"]{
+				padding: 4px;
+				height: 25px;
+				width: 300px;
+}
+
+.button-1{
+				height: 58px;
+				background: Orange;
+				border: 0;
+				padding-left: 10px;
+				padding-right: 10px;
+				color: white;
+				border-radius: 70px;
+				width: 150px;
+}
+
+
+.offers{
+				/* background: rgba(44, 62, 80, 0.7 ); */
+				min-height:-100px;
+}
+
+
+.offers{
+				margin-top: 20px;
+}
+
+
+.offers #offer1{
+				float:left;
+				text-align:center;
+				width: 30%;
+				padding: 90px;
+}
+
+
+.offers #offer1 img{
+				width: 90px;
+}
+
+
+.offerss #offer2{
+				float:left;
+				text-align:center;
+				width: 30%;
+				padding: 90px;
+}
+
+
+.offerss #offer2 img{
+				width: 90px;
+}
+
+
+footer{
+				color: white;
+				background: rgba(44, 62, 80, 0.7 );
+				text-align: center;
+				margin-top: 500px;
+				padding: 20px;
+				font-size: 40px;
+				font-weight: bold;
+				
+}
+
+
+.location{
+				margin-top: 500px;
+				margin-bottom: -300px;
+				text-align: center;
+				font-size: ;
+				font-weight: bold;
+				background: #35424a;
+				padding: 80px;
+				border-bottom: #ff001f solid 10px;
+				border-top: #ff001f solid 10px;
+				border-radius: 100px;
+}
+
+.locationbutton{
+				width: 500px;
+				background: #ff001f;
+				color: white;
+				height: 220px;
+				font-size: 30px;
+				border-radius: 70px;
+}
+
+/* MENU BAR */
+
+.menubar{
+				background: url("../img/menuimg.png");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				width: 80% auto;
+}
+
+
+.menubar #menuul{
+     background: rgba(44, 62, 80, 0.7 );
+				overflow: none;
+				padding: 20px;
+}
+
+
+.menubar li{
+				color: red;
+				padding: 80px;
+				min-height: 200px auto;
+		  	font-size: 70px;
+		  	margin: auto;
+		  	padding-left: 20px;
+		  	
+}
+
+
+.menubar li a{
+				color: Gold;
+				text-decoration: none;
+				text-transform: uppercase;
+				
+}
+
+
+
+/* Register */
+
+.partner{
+				color: black;
+				font-size: 50px;
+				font-weight: bold;
+				text-align: right;
+}
+
+#partnershipsignup{
+				color: Black;
+				font-size: 60px;
+				font-weight: bold;
+				text-align: center;
+}
+
+.signup{
+				background: url("../img/signupimg.png");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				min-height: 1000px;
+				
+				
+}
+
+
+.partnershipform{
+				background: rgba(44, 62, 80, 0.7 );
+				padding: 100px;
+				width: 400px;
+				margin-top: 90px;
+				margin-left: 40px;
+				margin: 0 auto;
+				min-height: 700px;
+}
+
+
+.partnershipform input{
+				border-radius: 20px;
+				padding: 10px 0;
+				width: 400px;
+				margin-top: 30px;
+				height: 30px;
+				text-align: center;
+				font-size: 40px;
+				font-weight: 20px;
+}
+
+button.form{
+				width: 300px;
+				padding: center;
+				margin: center;
+				height: 70px;
+				margin-top: 100px;
+				border-radius: 20px;
+				color: gold;
+				font-size: 50px;
+				font-weight: 20px;
+}
+
+
+/* ABOUT */
+.dark{
+				padding: 15px;
+				background: #35424a;
+				color: #ffffff;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				padding: 50px;
+}
+
+
+
+.container #main-col{
+				float: left;
+				width: 80%;
+				padding: 50px;
+				}
+				
+				
+	.container #main-col .pagetitle{
+					color: Gold;
+					font-size: 50px;
+				font-weight: 20px;
+	}
+				
+
+
+aside{
+				float: left;
+				width: 80%;
+				padding: 50px;
+}
+
+aside h1{
+				font-size: 50px;
+				font-weight: 20px;
+				color: Gold;
+}
+
+article.goals{
+				font-size: 50px;
+				float: left;
+				width: 80%;
+				
+}
+
+article.goals h1{
+				font-size: 50px;
+				font-weight: 20px;
+				color: Gold;
+}
+
+article.goals li{
+				padding: 5px;
+}
+
+
+.footerabout{
+				margin-top:-400px ;
+}
+
+
+/* Services */
+
+.listing{
+				border-color: orange;
+				border-width: 10px;
+				border-style: solid; 
+				padding: 10px;
+				
+}
+
+
+#servicehead h1{
+				color: #ff001f;
+				font-size: 50px;
+				font-weight: 20px;
+				text-align: center;
+}
+
+#servicehead p{
+					color: rgba(44, 62, 80, 0.7 ) ;
+				font-size: 40px;
+				font-weight: 20px;
+				text-align: center;
+}
+
+.listing h1{
+				color: #ff001f;
+				font-size: 40px;
+				font-weight: 20px;
+				text-align: center;
+				overflow:hidden;
+}
+
+
+.listing summary{
+				font-size: 60px;
+				font-weight: 20px;
+				text-align: center;
+}
+
+
+.listing details ul{
+				color: #ff001f;
+				font-size: 40px;
+				font-weight: 20px;
+				margin-left: 40px;
+}
+
+
+.listing details button{
+				width: 300px;
+				height: 150px;
+				border-radius: 50px;
+				background: Orange;
+}
+
+
+.listing details button a{
+				color: white;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-size: 40px;
+				font-weight: 20px;
+}
